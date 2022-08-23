@@ -86,8 +86,8 @@ You Created. --> Save.
     vi .bashrc
 	
 	# Give Unique Name And S3 Bucket which you created.
-	export NAME=class.k8s.local
-	export KOPS_STATE_STORE=s3://class28.local
+	export NAME=franciswepngong.k8s.local
+	export KOPS_STATE_STORE=s3://franciswepngong.local
  
     source .bashrc
 	
@@ -111,8 +111,8 @@ You Created. --> Save.
 	   kops validate cluster
 
 # 11) connect to the master node
-    sh -i ~/.ssh/id_rsa ubuntu@ipAddress
-    ssh -i ~/.ssh/id_rsa ubuntu@3.90.203.23
+    //sh -i ~/.ssh/id_rsa ubuntu@ipAddress
+    //ssh -i ~/.ssh/id_rsa ubuntu@3.90.203.23
 # 11) To list nodes
 
 	  kubectl get nodes 
