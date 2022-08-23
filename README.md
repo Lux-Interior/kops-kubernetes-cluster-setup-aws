@@ -63,8 +63,9 @@
 	AmazonVPCFullAccess
 	
 	Type aws configure on the cli
-	attach access key ID
+	attach access key ID:
 	Attach access key key: 
+	Add default region name: US-east1-c
 
 
 Then Attach IAM role to ubuntu server from Console Select KOPS Server --> Actions --> Instance Settings --> Attach/Replace IAM Role --> Select the role which
